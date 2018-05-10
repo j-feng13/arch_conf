@@ -1,0 +1,90 @@
+// vim:ts=4:sw=4:et
+{
+    // splith split container with 2 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splith",
+    "percent": 1,
+    "type": "con",
+    "nodes": [
+        {
+            // splitv split container with 2 children
+            "border": "normal",
+            "floating": "auto_off",
+            "layout": "splitv",
+            "percent": 0.2,
+            "type": "con",
+            "nodes": [
+                {
+                    "border": "pixel",
+                    "current_border_width": 1,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 433,
+                       "width": 738,
+                       "x": 0,
+                       "y": 0
+                    },
+                    "name": "jfeng@ubu: ~",
+                    "percent": 0.5,
+                    "swallows": [
+                       {
+                       // "class": "^Gnome\\-terminal$",
+                       // "instance": "^gnome\\-terminal\\-server$",
+                       // "title": "^jfeng\\@ubu\\:\\ \\~$",
+                       // "transient_for": "^$",
+                       // "window_role": "^gnome\\-terminal\\-window\\-3b326a96\\-94b6\\-434f\\-a2cc\\-25cbb7424371$"
+                       }
+                    ],
+                    "type": "con"
+                },
+                {
+                    "border": "pixel",
+                    "current_border_width": 1,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 433,
+                       "width": 738,
+                       "x": 0,
+                       "y": 0
+                    },
+                    "name": "jfeng@ubu: ~",
+                    "percent": 0.5,
+                    "swallows": [
+                       {
+                       // "class": "^Gnome\\-terminal$",
+                       // "instance": "^gnome\\-terminal\\-server$",
+                       // "title": "^jfeng\\@ubu\\:\\ \\~$",
+                       // "transient_for": "^$",
+                       // "window_role": "^gnome\\-terminal\\-window\\-25ab15e7\\-b783\\-4fe0\\-8905\\-5e73908d7b9f$"
+                       }
+                    ],
+                    "type": "con"
+                }
+            ]
+        },
+        {
+            "border": "pixel",
+            "current_border_width": 1,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 1078,
+               "width": 1918,
+               "x": 1920,
+               "y": 0
+            },
+            "name": "~/.i3/default_workspace.json - Sublime Text",
+            "percent": 0.8,
+            "swallows": [
+               {
+               // "class": "^Sublime_text$",
+               // "instance": "^sublime_text$",
+               // "title": "^\\~\\/\\.i3\\/default_workspace\\.json\\ \\-\\ Sublime\\ Text$",
+               // "transient_for": "^$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
