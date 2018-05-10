@@ -1,0 +1,25 @@
+unmapAll
+map e scrollDown
+map i scrollUp
+map n scrollLeft
+map o scrollRight
+map I scrollToTop
+map E scrollToBottom
+map <c-i> focusInput
+map t LinkHints.activateMode
+map T LinkHints.activateModeToOpenInNewTab
+map v LinkHints.activateModeWithQueue
+map V LinkHints.activateModeToOpenIncognito
+map <tab> Vomnibar.activateTabSelection
+map > goNext
+map < goPrevious
+map f goBack
+map p goForward
+map F previousTab
+map P nextTab
+map a Vomnibar.activateEditUrl
+map A Vomnibar.activateInNewTab
+map x removeTab
+map X restoreTab
+map w moveTabToNewWindow
+map r reload hard
