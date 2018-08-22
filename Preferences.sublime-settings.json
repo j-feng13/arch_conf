@@ -1,0 +1,43 @@
+{
+	"binary_file-patterns:":
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip",
+		"node_modules/**",
+		".git/**",
+		"typings/**"
+	],
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"node_modules",
+		"typings",
+		"dist",
+		"env",
+	],
+	"font_size": 12,
+	"hot_exit": false,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"material_theme_small_tab": true,
+	"remember_open_files": false,
+	"theme": "Material-Theme-Darker.sublime-theme",
+	"update_check": false
+}
